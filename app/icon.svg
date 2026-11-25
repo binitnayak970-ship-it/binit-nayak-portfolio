@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Binit Nayak">
+  <rect width="64" height="64" fill="#141414"/>
+  <rect width="64" height="7" fill="#C8391B"/>
+  <text x="32" y="45" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-1" fill="#F2EDE4">BN</text>
+  <rect x="42" y="52" width="12" height="4" fill="#D69A2A"/>
+</svg>
