@@ -163,11 +163,7 @@ export const learning = {
     },
   ] satisfies LearningItem[],
   /** Concepts and habits that are not languages — kept separate, no proficiency claim. */
-  also: [
-    "Learning in public",
-    "Reading documentation",
-    "Git & version control",
-  ],
+  also: ["Learning in public", "Building small things"],
 };
 
 export const now = {
