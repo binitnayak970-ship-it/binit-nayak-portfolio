@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    font-synthesis-weight: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: #c8391b;
+    color: #f2ede4;
+  }
+
+  :focus-visible {
+    outline: 2px solid #a82c12;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-frame px-5 sm:px-8 lg:px-12;
+  }
+
+  .micro {
+    @apply text-[10px] font-medium uppercase tracking-micro sm:text-[11px];
+  }
+
+  .rule-ember::before {
+    content: "";
+    @apply mr-3 inline-block h-px w-8 shrink-0 translate-y-[-3px] bg-ember align-middle;
+  }
+}
+
+@layer utilities {
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 260ms ease;
+    padding-bottom: 1px;
+  }
+
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+
+  .link-underline-always {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    padding-bottom: 1px;
+  }
+
+  .link-underline-always:hover,
+  .link-underline-always:focus-visible {
+    background-size: 0% 1px;
+  }
+}
+
+/* Scroll reveal — only active when JS is running (html.js) and motion is allowed.
+   Without JS or with reduced motion, content is visible by default. */
+@media (prefers-reduced-motion: no-preference) {
+  html.js .reveal {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    transition:
+      opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+      transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  html.js .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Thin editorial line-work used over the portrait. */
+.outline-work {
+  vector-effect: non-scaling-stroke;
+}

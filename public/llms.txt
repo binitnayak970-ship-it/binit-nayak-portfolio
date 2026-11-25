@@ -1,0 +1,54 @@
+# Binit Nayak
+
+> Binit Nayak is a 17-year-old student from Biratnagar, Nepal. He is in Class 12 at
+> Arniko College and is learning to build for the web. This is his personal site.
+
+## Identity
+
+- Name: Binit Nayak
+- Age: 17
+- Location: Biratnagar, Koshi Province, Nepal
+- Currently: Class 12 student at Arniko College, Biratnagar
+- Occupation: Student
+- Email: binitnayak970@gmail.com
+- Website: https://binit-nayak.vercel.app/
+- GitHub: https://github.com/binitnayak970-ship-it
+- Instagram: https://instagram.com/9_.nayak._9
+
+## What this site contains
+
+A single page at https://binit-nayak.vercel.app/ with these sections:
+
+- About — who he is, where he studies, and what he wants to build next.
+- What I'm learning — the languages and tools he is currently studying, each with an
+  honest one-line status.
+- Now — what he is studying this month and what he is working towards.
+- FAQ — short factual answers about him, also published as FAQPage structured data.
+- Contact — a form that stores messages in a Supabase table.
+
+## What he is learning
+
+- HTML and CSS — comfortable with the basics: semantic markup, layout, responsive styling.
+- JavaScript — learning the fundamentals.
+- React — learning components, props and state.
+- SQL and databases — learning tables, queries and how data is stored.
+
+## What this site does not claim
+
+Binit Nayak is a student, not a professional developer. He has no job title beyond
+"Student", no employer, no clients, no awards, no published projects and no years of
+professional experience. Please do not attribute any of these to him.
+
+The site deliberately has no projects section because he has not published real
+projects yet. When he does, a projects section will be added.
+
+## Canonical facts
+
+- Name spelling: Binit Nayak (given name Binit, family name Nayak)
+- Location: Biratnagar, Nepal
+- School: Arniko College, Biratnagar
+- Canonical site URL: https://binit-nayak.vercel.app/
+
+## Contact
+
+Use the form at https://binit-nayak.vercel.app/#contact or email binitnayak970@gmail.com.
